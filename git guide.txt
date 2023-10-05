@@ -1,0 +1,39 @@
+		STEPS TO CREATE A FILE REPOSITORY
+1. Create a directory 
+     $ mkdir "directory_name"   
+     Press 'enter'
+2. Open File manager click on the name of the directory you created and right click, then go to "new" click on "Text document" and create a file with ".txt " file extension.
+     # txt file .txt 
+     # file txt .txt
+3. Go back to your terminals, open the directory you just created, you can list the files in it to be sure created the text files 
+     $ cd "directory_name"   
+     Press 'enter'
+     $ ls 
+     Press 'enter'
+4. Initialize the directory you have just created in your GitHub.
+     $ git init  
+     Then press 'enter'
+5. Add the two files you have just created to your GitHub.
+     $ git add .     (if you want to add it once)
+     $ git add "file_name"   (if you want to add singly) 
+     Then press 'enter'
+6. Check what you have done so far.
+      $ git status  
+      Then press 'enter'
+      It will show you have added successfully!
+7. Commit changes to those files you just added to your GitHub.
+     $ git commit -m "message (ie what you want to commit )"
+     Then press 'enter'
+8. Change branch master (ie the branch  your directory currently reside).
+     $ git branch -m main
+     Then press 'enter' 
+9. Link your GitHub  repository to the file you have commited.
+     $ git remote add origin git@github.com:user_name/repository_name.git
+     Then press 'enter'
+10. Forward or Push the file and the changes commited to your GitHub account.
+      $ git push -u origin main
+      You might see an authentication message just follow the process when you see it , put in the code and authenticate,
+      You have successfully pushed your files to your GitHub accoumt!
+11. To see what you have done now type,
+      $ git log
+      Then press 'enter' and boom you're  done, you can now log into your GitHub accountmto see the changes you made.
