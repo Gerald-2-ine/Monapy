@@ -1,0 +1,23 @@
+      WHAT ARE FILE PERMISSIONS?
+
+File Permissions are set of rules and settings that can determine who can access, modify, or execute a file directory on a computer system.
+They are fundamental aspectes of file and system security, helping to control and protect data and resources.
+
+There are typically three levels of file permissions:
+1. Read: Allows a user to view contents of a file or list the contents of a directory.
+2. Write: Permits a user to modify the contents of a file or create, delete, and rename files within a directory. 
+3. Execute: Grants the user the ability to run and execute a file, typixally used for program files and scripts.
+
+       File permissions are ysyally assigned to three categories of users:
+1. Owner: The user who owns the file or directory and typically has the most control over it. 
+2. Group: a group of users who share common permissions for the file file or directory.
+3. Others: All other users who are not the owner and not part of the group.
+
+Permissions are represented using a combination of letters (e.g. r for read, w for write, x for execute) and are assoviated with each of the three user categories. These positions can be viewed and modified using commands like 'chmod' in Unix-like operating systems or through graphical interfaces in the modern operating systems.
+
+For example, in Unix/Linux systems, a file with permission "rw-r--r--" means:
+. The owner has read and write permissions.
+. The group has read-omly permission.
+. Others have read-only permission.
+
+Properly configuring the permissions is essential for maintaining the security and intergrity of a computer system, as it ensures that only authorized users can access or modify files and directories.
